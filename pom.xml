@@ -84,4 +84,22 @@
             </plugin>
         </plugins>
     </build>
+   <build>
+  <plugins>
+    <plugin>
+      <groupId>org.sonarsource.scanner.maven</groupId>
+      <artifactId>sonar-maven-plugin</artifactId>
+      <version>3.8.0.2131</version>
+    </plugin>
+  </plugins>
+</build>
+<properties>
+    <sonar.host.url>http://20.211.80.208:9000</sonar.host.url>
+    <sonar.login>5d755c18a4c79b6b0f266fbd62725ea1832469ae</sonar.login>
+    <sonar.projectKey>azure</sonar.projectKey>
+    <sonar.projectName>azurename</sonar.projectName>
+    <sonar.projectVersion>1.0</sonar.projectVersion>
+</properties>
+       
+      
 </project>
